@@ -3,15 +3,17 @@
 @using Facturation.Shared
 
 @inject NavigationManager nav
-@inject IBusinessData data
+@inject BusinessData data
 
-<h1>Counter</h1>
+<h1>En cours de construction...</h1>
 
 
-<p>Current count: @currentCount</p>
+@*<p>Current count: @currentCount</p>
+<br />
+<h1>Affichage d'un client : @data.getFactures()[0].getClient().getNom()</h1>
 
 <button class="btn btn-primary" @onclick="e=>IncrementCount(1)">Click me</button>
-<button class="btn btn-primary" @onclick="e=>IncrementCount(2)">Click me</button>
+<button class="btn btn-primary" @onclick="e=>IncrementCount(2)">Click me</button>*@
 
 @code {
     private int currentCount = 0;

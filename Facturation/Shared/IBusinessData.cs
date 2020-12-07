@@ -6,6 +6,6 @@ namespace Facturation.Shared
 {
     public interface IBusinessData
     {
-        IEnumerable<Facture> Factures { get; }
+        
     }
 }

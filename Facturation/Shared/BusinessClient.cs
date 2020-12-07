@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Facturation.Shared
 {
-    class Client
+    public class BusinessClient
     {
         private string nom;
         private string prenom;
         private int age;
 
-        public Client(string nom, string prenom, int age) 
+        public BusinessClient(string nom, string prenom, int age) 
         {
             this.nom = nom;
             this.prenom = prenom;
